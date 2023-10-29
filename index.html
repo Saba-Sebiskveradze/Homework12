@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -8,34 +9,37 @@
     <script src="https://kit.fontawesome.com/837cc79889.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
+    <!-- container -->
     <div class="container">
+        <!-- header -->
         <header>
             <div class="logo">
                 <img src="images/plant.png" alt="plant" class="plant">
                 <h2 class="plant_h2">PLANT SHOP</h2>
             </div>
-            
+
             <form name="header_form">
                 <div class="header_form_div">
                     <input type="text" name="search" placeholder="What are you looking for?" class="search">
-                <button type="submit" class="search_button">
-                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-                </button>
+                    <button type="submit" class="search_button">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </button>
                 </div>
-                
+
             </form>
             <div class="login">
                 <a href="" class="login_p">
-                    <p >LOG IN</p>
+                    <p>LOG IN</p>
                 </a>
-                
+
                 <a href="" class="header_button">
-                    
+
                     <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
-                
+
                 </a>
-                
+
             </div>
         </header>
         <nav class="header_nav">
@@ -57,7 +61,80 @@
                 </li>
             </ul>
         </nav>
+        <!-- section -->
+        <section class="main_section">
+            <img src="images/cover.png" alt="cover" class="cover">
+            <div class="section_inside">
+                <h2 class="contact_us">CONTACT US</h2>
+                <!-- form -->
+                <form name="section_form">
+                    <div class="all_input">
+                        <!-- information -->
+                        <div class="information">
+                            <input type="text" name="name" placeholder="Name" class="name_email">
+                            <input type="email" name="email" placeholder="Email" class="name_email">
+                        </div>
+                        <!-- questions -->
+                        <div class="question_div">
+                            <label for="question" class="main_labels">Is your question about an existing order?</label>
+                            <select name="question" id="question">
+                                <option value=""></option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                        </div>
+
+                        <!-- radios -->
+                        <div class="radios_div">
+                            <label for="radios" class="main_labels">I have a delivery question about my order</label>
+                            <div class="inside_radio">
+                                <input type="radio" id="first" name="radios" value="first" class="radio_circle">
+                                <label for="first" class="radio_label">I did not receive my order</label>
+                            </div>
+
+                            <div class="inside_radio">
+                                <input type="radio" id="second" name="radios" value="second" class="radio_circle">
+                                <label for="second" class="radio_label">My order is incorrect or arrived damaged</label>
+                            </div>
+                            <div class="inside_radio">
+                                <input type="radio" id="third" name="radios" value="third" class="radio_circle">
+                                <label for="third" class="radio_label">Cancel my order</label>
+                            </div>
+                            <div class="inside_radio">
+                                <input type="radio" id="fourth" name="radios" value="fourth" class="radio_circle">
+                                <label for="fourth" class="radio_label">Change my shipping address</label>
+                            </div>
+
+                        </div>
+
+                        <!-- more details -->
+                        <div class="details_div">
+                            <label for="textarea1" class="main_labels">Please provide more details below.</label>
+                            <textarea name="textarea1" id="textarea1" cols="30" rows="10" placeholder="Message"></textarea>
+
+                        </div>
+
+                        <!-- checkbox -->
+                        <div class="checkbox_div">
+                            <input type="checkbox" name="checkbox1" id="checkbox">
+                            <label for="checkbox1" class="main_labels">I want to receive the newsletter </label>
+                        </div>
+                        <!-- button -->
+
+                        <button type="submit" class="section_button">
+                            <p>SEND</p>
+                        </button>
+
+
+
+                    </div>
+
+
+                </form>
+            </div>
+        </section>
     </div>
-    
+
 </body>
+
 </html>
