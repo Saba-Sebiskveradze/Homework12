@@ -104,7 +104,10 @@ header {
     font-weight: 400;
     line-height: 26px;
 }
-
+.contact{
+    border-bottom: 2px solid #FFF; 
+    padding: 3px;
+}
 /* section */
 .main_section {
     height: 1004px;
@@ -278,4 +281,75 @@ header {
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    padding: 48px 72px;
+    justify-content: space-between;
+
+    column-gap: 345px;
+    background-color: #01ACA9;
+}
+
+.footer_div1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer_p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.fa-brands {
+    font-size: 24px;
+}
+
+.footer_div2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.article_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+article {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.footer_contact {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.article_p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.copyright {
+    color: #F5E0F5;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
 }
