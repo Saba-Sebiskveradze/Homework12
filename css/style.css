@@ -86,12 +86,13 @@ header {
     background: #F30AEA;
 
 }
-
+/* navigation */
 .header_ul {
     display: flex;
     padding: 15px 299px;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 92px;
+
     background-color: #01ACA9;
 
 }
